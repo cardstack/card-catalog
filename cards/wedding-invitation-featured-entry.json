@@ -1,7 +1,7 @@
 {
   "data": {
     "attributes": {
-      "csRealm":"http://localhost:3000/api/realms/default",
+      "csRealm":"https://cardstack.com/api/realms/card-catalog",
       "csId": "wedding-invitation-featured-entry",
       "csTitle": "Wedding Invitation",
       "csCreated":"2020-03-06T15:37:26.108Z",
@@ -16,7 +16,7 @@
       },
       "card": {
         "data": {
-          "type": "cards", "id": "http://localhost:3000/api/realms/default/cards/94228f532d362138353916282a83cfc633013c22"
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/94228f532d362138353916282a83cfc633013c22"
         }
       }
     }
