@@ -1,0 +1,25 @@
+{
+  "data": {
+    "type": "cards",
+    "attributes": {
+      "csRealm":"https://cardstack.com/api/realms/card-catalog",
+      "csId": "wedding-invitation-featured-entry",
+      "csTitle": "Event Card",
+      "csCreated":"2020-03-06T13:37:26.108Z",
+      "csUpdated":"2020-03-06T14:02:02.865Z",
+      "type": "featured"
+    },
+    "relationships": {
+      "csAdoptsFrom": {
+        "data": {
+          "type": "cards", "id": "https://base.cardstack.com/public/cards/catalog-entry"
+        }
+      },
+      "card": {
+        "data": {
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/35039c413e7cd4a66fbd709b89ca4622bfc3b2e9"
+        }
+      }
+    }
+  }
+}
