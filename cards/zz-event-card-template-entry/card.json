@@ -3,7 +3,7 @@
     "type": "cards",
     "attributes": {
       "csRealm":"https://cardstack.com/api/realms/card-catalog",
-      "csId": "event-card-template-entry",
+      "csId": "zz_event-card-template-entry",
       "csTitle": "Event Card",
       "csCreated":"2020-03-06T13:37:26.108Z",
       "csUpdated":"2020-03-06T14:02:02.865Z",
