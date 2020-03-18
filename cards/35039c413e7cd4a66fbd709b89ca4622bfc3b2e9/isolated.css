@@ -8,7 +8,11 @@
     background-size: 280px, contain;
 }
 
-.card-boundary .field {
+.isolated-card--view-fields {
+    display: grid;
+}
+
+.field {
     display: block;
     max-width: 300px;
     padding: 0;
@@ -21,51 +25,52 @@
     margin-right: auto;
 }
 
-.card-boundary .label {
+.label {
     display: none;
 }
 
-.card-boundary .value {
+.value {
     color: white;
     text-transform: uppercase;
 }
 
-.card-boundary .title-field,
-.card-boundary .divider-field {
+.title-field,
+.divider-field {
     display: none;
 }
 
-.card-boundary .wedding-intro-text-field {
+.wedding-intro-text-field {
     order: -1;
-    padding-top: 146px;
-    padding-bottom: 69px;
+    padding-top: 69px;
+    padding-bottom: 130px;
 }
-.card-boundary .wedding-website-field {
+.wedding-website-field {
     max-width: 100%;
     order: 10;
     z-index: 4;
     white-space: nowrap;
-}
-.card-boundary .wedding-rsvp-cta-field {
-    z-index: 5;
-}
-.card-boundary .wedding-name-partner-field {
-    padding-bottom: 69px;
-}
-.card-boundary .wedding-reception-address-field {
-    max-width: 300px;
-    padding-bottom: 43px;
-}
-.card-boundary .wedding-time-field,
-.card-boundary .wedding-rsvp-date-field {
-    padding-bottom: 12px;
-}
-.card-boundary .wedding-website-field {
+    margin-right: 0;
+    margin-left: 0;
     margin-top: -30px;
     padding: 52px 40px 22px;
     background-color: #221E2B;
 }
-.card-boundary .wedding-website-value {
+.wedding-rsvp-cta-field {
+    z-index: 5;
+}
+.wedding-name-partner-field {
+    padding-bottom: 69px;
+}
+.wedding-reception-address-field {
+    max-width: 300px;
+    padding-bottom: 43px;
+}
+.wedding-datetime-field,
+.wedding-rsvp-date-field {
+    padding-bottom: 12px;
+}
+
+.wedding-website-field .value {
     display: block;
     color: #FF4A72;
     font-weight: 400;
@@ -73,7 +78,7 @@
     text-transform: uppercase;
 }
 
-.card-boundary .wedding-intro-text-value {
+.wedding-intro-text-field .value {
     margin: 0 auto;
     max-width: 250px;
     font-family: 'Didot', serif;
@@ -84,8 +89,8 @@
     letter-spacing: 0.05em;
 }
 
-.card-boundary .wedding-name-value,
-.card-boundary .wedding-name-partner-value {
+.wedding-name-field .value,
+.wedding-name-partner-field .value {
     font-family: 'Didot', serif;
     font-style: italic;
     text-transform: capitalize;
@@ -95,7 +100,7 @@
     white-space: nowrap;
 }
 
-.card-boundary .wedding-name-partner-value::before {
+.wedding-name-partner-field .value::before {
     content: '&';
     display: block;
     font-size: 42px;
@@ -103,23 +108,18 @@
     padding-bottom: 7px;
 }
 
-.card-boundary .wedding-date-value,
-.card-boundary .wedding-time-value {
+.wedding-datetime-field .value {
     font-size: 25px;
     letter-spacing: 0.05em;
     line-height: calc(30 / 25);
 }
-.card-boundary .wedding-time-value::before {
-    display: inline-block;
-    content: 'at';
-}
 
-.card-boundary .wedding-rsvp-date-value::before {
+.wedding-rsvp-date-field .value::before {
     display: inline-block;
     content: 'Please RSVP by';
 }
 
-.card-boundary .wedding-rsvp-cta-value {
+.wedding-rsvp-cta-field .value {
     width: 302px;
     height: 58px;
     background: transparent;
@@ -135,12 +135,12 @@
     padding: 0;
 }
 
-.card-boundary .wedding-rsvp-cta-value:hover {
+.wedding-rsvp-cta-field .value:hover {
     background-color: transparent;
 }
 
-.card-boundary .wedding-website-value:focus,
-.card-boundary .wedding-rsvp-cta-value:focus {
+.wedding-website-field .value:focus,
+.wedding-rsvp-cta-field .value:focus {
     outline: none;
     background-color: transparent;
     text-decoration: underline;
