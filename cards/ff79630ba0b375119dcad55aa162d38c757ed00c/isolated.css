@@ -23,6 +23,10 @@
   padding-top: 35px;
 }
 
+.divider-field {
+  display: none;
+}
+
 .label {
   display: none;
   padding-bottom: 4px;
