@@ -1,5 +1,6 @@
 .card-boundary {
-    padding: 35px 0 50px;
+    max-height: 747px;
+    padding: 35px 0 45px;
     background-color: #FFEE6E;
     background-image: url('/assets/images/cards/event-ticket/ticket-confetti.svg');
     background-size: 100vw;
@@ -10,7 +11,7 @@
 
 .label,
 .divider-value {
-  display: none;
+    display: none;
 }
 
 .wheelchair-access-label,
@@ -33,14 +34,14 @@
       'date quantity';
     margin: 0 auto;
     border-radius: 20px;
-    max-width: 334px;
+    max-width: 354px;
     overflow: hidden;
 }
 
 .field {
     display: block;
     grid-column: 1 / -1;
-    padding: 0 31px 25px;
+    padding: 0 31px 20px;
     background: #373343;
     color: white;
     font-size: 15px;
@@ -125,6 +126,8 @@
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 31px;
+    padding-right: 5px;
+    padding-left: 25px;
 }
 
 .number-of-tickets-field {
@@ -147,6 +150,6 @@
     height: 40px;
     background-image: url('/assets/images/cards/event-ticket/ticket-divider.svg');
     background-repeat: no-repeat;
-    background-size: 346px 12px;
+    background-size: 105% 14px;
     background-position: top center;
 }
