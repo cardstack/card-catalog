@@ -1,6 +1,6 @@
 .isolated-card {
     height: 747px;
-    padding: 35px 0 45px;
+    padding: 35px 0;
     background-color: #FFEE6E;
     background-image: url('/assets/images/cards/event-ticket/ticket-confetti.svg');
     background-size: 100vw;
@@ -23,6 +23,10 @@
     border-radius: 20px;
     max-width: 354px;
     overflow: hidden;
+}
+.isolated-card--view-fields::before,
+.isolated-card--view-fields::after {
+    height: 0; /* for firefox */
 }
 
 .label,
@@ -153,4 +157,8 @@
     background-repeat: no-repeat;
     background-size: 105% 14px;
     background-position: top center;
+}
+
+.wheelchair-access-field {
+    margin-top: -5px;
 }
