@@ -197,7 +197,7 @@
       "event-location": "One World Trade Center",
       "title": "Quarterly Planning Meeting"
     },
-    "id": "http://localhost:3000/api/realms/default/cards/event-card",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/event-card",
     "relationships": {
       "csAdoptsFrom": {
         "data": {

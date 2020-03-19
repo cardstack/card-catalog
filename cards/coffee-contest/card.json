@@ -272,7 +272,7 @@
       "title": "Coffee Bean Award 2020 Winners",
       "title-logo": "/assets/images/cards/coffee-bean/coffee-competition-logo.svg"
     },
-    "id": "http://localhost:3000/api/realms/default/cards/coffee-contest",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/coffee-contest",
     "relationships": {
       "csAdoptsFrom": {
         "data": {

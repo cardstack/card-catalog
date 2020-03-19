@@ -234,7 +234,7 @@
       "section": "Main floor",
       "title": "Never Empty Cup Launch Party"
     },
-    "id": "http://localhost:3000/api/realms/default/cards/event-ticket",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/event-ticket",
     "relationships": {
       "csAdoptsFrom": {
         "data": {

@@ -216,7 +216,7 @@
       "wedding-rsvp-date": "2021-05-01",
       "wedding-website": "https://www.rufusandwillainwonderland.com"
     },
-    "id": "http://localhost:3000/api/realms/default/cards/wedding-invitation",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/wedding-invitation",
     "relationships": {
       "csAdoptsFrom": {
         "data": {
