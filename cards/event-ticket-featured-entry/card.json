@@ -2,7 +2,6 @@
   "data": {
     "type": "cards",
     "attributes": {
-      "csRealm":"https://cardstack.com/api/realms/card-catalog",
       "csId": "event-ticket-featured-entry",
       "csTitle": "Event Ticket",
       "csCreated":"2020-03-18T16:07:34.666Z",
@@ -17,7 +16,7 @@
       },
       "card": {
         "data": {
-          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/38151dc00a3468825e705fc29d984805d4c52929"
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/event-ticket"
         }
       }
     }

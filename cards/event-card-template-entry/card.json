@@ -2,7 +2,6 @@
   "data": {
     "type": "cards",
     "attributes": {
-      "csRealm":"https://cardstack.com/api/realms/card-catalog",
       "csId": "zz_event-card-template-entry",
       "csTitle": "Event Card (Template)",
       "csCreated":"2020-03-06T13:37:26.108Z",
@@ -17,7 +16,7 @@
       },
       "card": {
         "data": {
-          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/ff79630ba0b375119dcad55aa162d38c757ed00c"
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/event-card"
         }
       }
     }

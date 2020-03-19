@@ -1,0 +1,248 @@
+{
+  "data": {
+    "attributes": {
+      "csCreated": "2020-03-18T16:07:34.666Z",
+      "csFeatures": {
+        "isolated-css": "isolated.css"
+      },
+      "csFieldOrder": [
+        "title",
+        "highlight-title",
+        "divider",
+        "event-title",
+        "guest-name",
+        "number-of-tickets",
+        "date",
+        "wheelchair-access",
+        "section",
+        "features",
+        "qr-code"
+      ],
+      "csFieldSets": {
+        "embedded": [
+          "date",
+          "title",
+          "divider",
+          "section",
+          "guest-name",
+          "highlight-title",
+          "number-of-tickets"
+        ],
+        "isolated": [
+          "date",
+          "title",
+          "divider",
+          "qr-code",
+          "section",
+          "features",
+          "guest-name",
+          "event-title",
+          "highlight-title",
+          "number-of-tickets",
+          "wheelchair-access"
+        ]
+      },
+      "csFields": {
+        "date": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Date"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/date-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "divider": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Divider"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/boolean-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "event-title": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Event title"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "features": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "VIP package"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "guest-name": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Guest name"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "highlight-title": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Highlight title"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "number-of-tickets": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Number of tickets"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/integer-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "qr-code": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "QR code"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/image-reference-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "title": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Title"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wheelchair-access": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Wheelchair access"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/boolean-field",
+                "type": "cards"
+              }
+            }
+          }
+        }
+      },
+      "csId": "event-ticket",
+      "csTitle": "Event Ticket",
+      "csUpdated": "2020-03-18T18:30:56.689Z",
+      "date": "2020-02-27",
+      "divider": true,
+      "event-title": "Launch Party",
+      "features": "Backstage pass, Open bar, VIP parking",
+      "guest-name": "Charlie Peel",
+      "highlight-title": "VIP Guest Ticket",
+      "number-of-tickets": 4,
+      "qr-code": "https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/core_market_full/generator/dist/generator/assets/images/websiteQRCode_noFrame.png",
+      "section": "Main floor",
+      "title": "Never Empty Cup Launch Party"
+    },
+    "id": "http://localhost:3000/api/realms/default/cards/event-ticket",
+    "relationships": {
+      "csAdoptsFrom": {
+        "data": {
+          "id": "https://base.cardstack.com/public/cards/base",
+          "type": "cards"
+        }
+      }
+    },
+    "type": "cards"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "attributes": {
+      "csCreated": "2020-03-19T15:00:25.863Z",
+      "csFieldOrder": [
+        "name",
+        "image"
+      ],
+      "csFields": {
+      },
+      "csId": "sample-photographer",
+      "csTitle": "Sample Photographer",
+      "csUpdated": "2020-03-19T15:00:47.195Z",
+      "image": "/assets/images/cards/photo-skiing/photo-skiing-byline.png",
+      "name": "Carlos Naipes"
+    },
+    "id": "http://localhost:3000/api/realms/default/cards/sample-photographer",
+    "relationships": {
+      "csAdoptsFrom": {
+        "data": {
+          "id": "https://cardstack.com/api/realms/card-catalog/cards/photographer-card",
+          "type": "cards"
+        }
+      }
+    },
+    "type": "cards"
+  }
+}

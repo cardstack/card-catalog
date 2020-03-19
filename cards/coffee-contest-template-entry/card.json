@@ -2,7 +2,6 @@
   "data": {
     "type": "cards",
     "attributes": {
-      "csRealm":"https://cardstack.com/api/realms/card-catalog",
       "csId": "coffee-contest-template-entry",
       "csTitle": "Coffee Contest Entry (Template)",
       "csCreated":"2020-03-18T20:56:17.941Z",
@@ -17,7 +16,7 @@
       },
       "card": {
         "data": {
-          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/e3364ac55511c5031e690088309201a7de5214df"
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/coffee-contest"
         }
       }
     }

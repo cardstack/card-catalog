@@ -1,0 +1,230 @@
+{
+  "data": {
+    "attributes": {
+      "csCreated": "2020-03-12T10:36:42.852Z",
+      "csFeatures": {
+        "isolated-css": "isolated.css"
+      },
+      "csFieldOrder": [
+        "wedding-intro-text",
+        "title",
+        "divider",
+        "wedding-name",
+        "wedding-name-partner",
+        "wedding-datetime",
+        "wedding-reception-address",
+        "wedding-rsvp-date",
+        "wedding-rsvp-cta",
+        "wedding-website"
+      ],
+      "csFieldSets": {
+        "embedded": [
+          "title",
+          "divider",
+          "wedding-name",
+          "wedding-datetime",
+          "wedding-rsvp-date",
+          "wedding-name-partner",
+          "wedding-reception-address"
+        ],
+        "isolated": [
+          "title",
+          "divider",
+          "wedding-name",
+          "wedding-website",
+          "wedding-datetime",
+          "wedding-rsvp-cta",
+          "wedding-rsvp-date",
+          "wedding-intro-text",
+          "wedding-name-partner",
+          "wedding-reception-address"
+        ]
+      },
+      "csFields": {
+        "divider": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Divider"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/boolean-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "title": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Title"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-datetime": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Date & Time"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/datetime-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-intro-text": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Wedding Intro Text"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-name": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Bride"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-name-partner": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Groom"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-reception-address": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Reception Address"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-rsvp-cta": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "RSVP"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/call-to-action-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-rsvp-date": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "RSVP Date"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/date-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "wedding-website": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Learn more on our website"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/url-field",
+                "type": "cards"
+              }
+            }
+          }
+        }
+      },
+      "csId": "wedding-invitation",
+      "csTitle": "Wedding Invitation",
+      "csUpdated": "2020-03-18T18:38:18.376Z",
+      "divider": true,
+      "title": "Wedding Invitation",
+      "wedding-datetime": "2021-06-25T19:00:00.000Z",
+      "wedding-intro-text": "Please join us for the wedding of",
+      "wedding-name": "Willa Karciana",
+      "wedding-name-partner": "Rufus Jackson",
+      "wedding-reception-address": "The Gorgeous Hotel, 96 Hilton Avenue, San Francisco, CA",
+      "wedding-rsvp-cta": "http://nowhere.blah",
+      "wedding-rsvp-date": "2021-05-01",
+      "wedding-website": "https://www.rufusandwillainwonderland.com"
+    },
+    "id": "http://localhost:3000/api/realms/default/cards/wedding-invitation",
+    "relationships": {
+      "csAdoptsFrom": {
+        "data": {
+          "id": "https://base.cardstack.com/public/cards/base",
+          "type": "cards"
+        }
+      }
+    },
+    "type": "cards"
+  }
+}
