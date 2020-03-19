@@ -4,7 +4,7 @@
     "attributes": {
       "csRealm":"https://cardstack.com/api/realms/card-catalog",
       "csId": "zz_event-card-template-entry",
-      "csTitle": "Event Card",
+      "csTitle": "Event Card (Template)",
       "csCreated":"2020-03-06T13:37:26.108Z",
       "csUpdated":"2020-03-06T14:02:02.865Z",
       "type": "template"

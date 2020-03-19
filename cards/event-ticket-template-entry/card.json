@@ -3,11 +3,11 @@
     "type": "cards",
     "attributes": {
       "csRealm":"https://cardstack.com/api/realms/card-catalog",
-      "csId": "wedding-invitation-featured-entry",
-      "csTitle": "Wedding Invitation",
-      "csCreated":"2020-03-06T13:37:26.108Z",
-      "csUpdated":"2020-03-06T14:02:02.865Z",
-      "type": "featured"
+      "csId": "event-ticket-template-entry",
+      "csTitle": "Event Ticket (Template)",
+      "csCreated":"2020-03-18T16:07:34.666Z",
+      "csUpdated":"2020-03-18T18:30:56.689Z",
+      "type": "template"
     },
     "relationships": {
       "csAdoptsFrom": {
@@ -17,7 +17,7 @@
       },
       "card": {
         "data": {
-          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/35039c413e7cd4a66fbd709b89ca4622bfc3b2e9"
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/38151dc00a3468825e705fc29d984805d4c52929"
         }
       }
     }
