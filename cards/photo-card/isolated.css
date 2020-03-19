@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Teko:500&display=swap");
+
+.card-boundary .isolated-card {
+  min-height: 812px;
+  background-color: black;
+}
+
+.card-boundary .isolated-card--view-fields {
+  min-height: inherit;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.card-boundary .photo-image-url-field {
+  z-index: 1;
+}
+
+.card-boundary .photo-image-url-field:before {
+  content: "";
+  background-image: linear-gradient(to bottom, rgb(3, 2, 22), transparent);
+  opacity: 0.6;
+  height: 100px;
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.card-boundary .field {
+  z-index: 2;
+  display: block;
+  font-family: "Roboto";
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.035em;
+}
+
+.card-boundary .label {
+  display: none;
+}
+
+.card-boundary .photo-description-field,
+.card-boundary .photo-keywords-field {
+  display: none;
+}
+
+.card-boundary .photo-image-url-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-boundary .photo-caption-field {
+  max-width: 338px;
+  position: relative;
+  margin-left: 0;
+  top: 40%;
+  padding: 0 30px;
+}
+.card-boundary .photo-caption-value {
+  display: inline;
+  background-color: #ff0000;
+  color: white;
+  font-family: "Teko";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.card-boundary .photo-location-field {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  padding: 26px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.07);
+}
+.card-boundary .photo-location-value {
+  background-image: url(/assets/images/cards/photo-skiing/photo-location-icon.svg);
+  background-size: 16px 23px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  padding-left: 27px;
+  line-height: 23px;
+  font-family: "Teko", sans-serif;
+}
+
+.card-boundary .photo-datetime-field {
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  font-family: "Teko", sans-serif;
+}
+
+.card-boundary .byline-info {
+  position: absolute;
+  width: 100%;
+  top: 22px;
+  left: 0;
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-areas: "image name";
+  align-items: center;
+  padding: 0 30px 35px;
+}
+
+.card-boundary .byline-info .byline-image-field {
+  grid-area: image;
+}
+.card-boundary .byline-info .byline-name-field {
+  grid-area: name;
+  color: white;
+  font-family: "Teko", sans-serif;
+  font-size: 1.3em;
+}
