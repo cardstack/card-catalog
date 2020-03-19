@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arya:400,700&display=swap');
 
-.card-boundary {
+.isolated-card {
+    height: 747px;
     background-color: #363144;
     background-image: url('/assets/images/cards/wedding-invitation/wedding-rect.svg'), url('/assets/images/cards/wedding-invitation/wedding-roses.svg');
     background-repeat: no-repeat;
@@ -9,6 +10,7 @@
 }
 
 .isolated-card--view-fields {
+    height: 100%;
     display: grid;
 }
 

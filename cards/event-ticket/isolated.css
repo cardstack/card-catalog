@@ -1,5 +1,5 @@
-.card-boundary {
-    max-height: 747px;
+.isolated-card {
+    height: 747px;
     padding: 35px 0 45px;
     background-color: #FFEE6E;
     background-image: url('/assets/images/cards/event-ticket/ticket-confetti.svg');
@@ -7,6 +7,22 @@
     background-position: top center;
     background-repeat: no-repeat;
     font-family: 'DM Sans', sans-serif;
+}
+
+.isolated-card--view-fields {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'title title'
+      'title-2 title-2'
+      'qr-code qr-code'
+      'guest-name guest-name'
+      'date quantity';
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 354px;
+    overflow: hidden;
 }
 
 .label,
@@ -21,21 +37,6 @@
     color: #FF0049;
     font-size: 12px;
     letter-spacing: 0.1em;
-}
-
-.isolated-card--view-fields {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      'title title'
-      'title-2 title-2'
-      'qr-code qr-code'
-      'guest-name guest-name'
-      'date quantity';
-    margin: 0 auto;
-    border-radius: 20px;
-    max-width: 354px;
-    overflow: hidden;
 }
 
 .field {

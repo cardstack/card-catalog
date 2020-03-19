@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Teko:500&display=swap");
 
 .card-boundary .isolated-card {
-  min-height: 812px;
+  height: 747px;
   background-color: black;
 }
 
 .card-boundary .isolated-card--view-fields {
-  min-height: inherit;
+  height: 100%;
   max-width: 800px;
   margin: 0 auto;
   display: grid;
