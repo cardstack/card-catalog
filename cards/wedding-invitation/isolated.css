@@ -5,13 +5,13 @@
 }
 
 .isolated-card {
-    width: 375px;
+    min-width: 375px;
     height: 812px;
     margin: 0 auto;
     background-image: url('/assets/images/cards/wedding-invitation/wedding-rect.svg'), url('/assets/images/cards/wedding-invitation/wedding-roses.svg');
     background-repeat: no-repeat;
-    background-position: top 40% center, center -260px;
-    background-size: 288px auto, contain;
+    background-position: top 40% center, center top -380px;
+    background-size: 288px auto, 456px auto;
 }
 
 .isolated-card--view-fields {
@@ -90,7 +90,7 @@
 }
 
 .wedding-rsvp-date-field {
-    padding-bottom: 17px;
+    padding-bottom: 22px;
 }
 
 .wedding-rsvp-cta-field {
@@ -102,7 +102,7 @@
     height: 58px;
     padding: 0;
     background-color: transparent;
-    background-image: url('/assets/images/cards/wedding-invitation/wedding-rsvp.svg');
+    background-image: url('/assets/images/cards/wedding-invitation/wedding-rsvp.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
