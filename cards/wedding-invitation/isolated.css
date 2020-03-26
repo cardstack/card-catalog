@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Arya:400,700&display=swap');
 
-.isolated-card {
-    height: 747px;
+.card-boundary {
     background-color: #363144;
+}
+
+.isolated-card {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
     background-image: url('/assets/images/cards/wedding-invitation/wedding-rect.svg'), url('/assets/images/cards/wedding-invitation/wedding-roses.svg');
     background-repeat: no-repeat;
-    background-position: top 40% center, 50% -420px;
-    background-size: 280px, contain;
+    background-position: top 40% center, center -260px;
+    background-size: 288px auto, contain;
 }
 
 .isolated-card--view-fields {
@@ -17,25 +22,18 @@
 .field {
     display: block;
     max-width: 300px;
-    padding: 0;
-    text-align: center;
+    margin: 0 auto;
+    color: white;
     font-family: 'Arya', sans-serif;
     font-size: 14px;
+    font-weight: normal;
     line-height: calc(21 / 14);
     letter-spacing: 0.1em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.label {
-    display: none;
-}
-
-.value {
-    color: white;
+    text-align: center;
     text-transform: uppercase;
 }
 
+.label,
 .title-field,
 .divider-field {
     display: none;
@@ -43,77 +41,47 @@
 
 .wedding-intro-text-field {
     order: -1;
-    padding-top: 69px;
-    padding-bottom: 130px;
-}
-.wedding-website-field {
-    max-width: 100%;
-    order: 10;
-    z-index: 4;
-    white-space: nowrap;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: -30px;
-    padding: 52px 40px 22px;
-    background-color: #221E2B;
-}
-.wedding-rsvp-cta-field {
-    z-index: 5;
-}
-.wedding-name-partner-field {
+    max-width: 246px;
+    padding-top: 146px;
     padding-bottom: 69px;
-}
-.wedding-reception-address-field {
-    max-width: 300px;
-    padding-bottom: 43px;
-}
-.wedding-datetime-field,
-.wedding-rsvp-date-field {
-    padding-bottom: 12px;
-}
-
-.wedding-website-field .value {
-    display: block;
-    color: #FF4A72;
-    font-weight: 400;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.wedding-intro-text-field .value {
-    margin: 0 auto;
-    max-width: 250px;
     font-family: 'Didot', serif;
     font-style: italic;
-    text-transform: none;
     font-size: 20px;
     line-height: calc(30 / 20);
     letter-spacing: 0.05em;
+    text-transform: none;
 }
 
-.wedding-name-field .value,
-.wedding-name-partner-field .value {
+.wedding-name-field,
+.wedding-name-partner-field {
     font-family: 'Didot', serif;
     font-style: italic;
-    text-transform: capitalize;
     font-size: 40px;
-    line-height: 1;
+    line-height: calc(50 / 40);
     letter-spacing: 0.05em;
     white-space: nowrap;
+    text-transform: capitalize;
 }
 
-.wedding-name-partner-field .value::before {
-    content: '&';
+.wedding-name-partner-field::before {
     display: block;
+    content: '&';
     font-size: 42px;
-    padding-top: 7px;
-    padding-bottom: 7px;
 }
 
-.wedding-datetime-field .value {
+.wedding-name-partner-field {
+    padding-bottom: 69px;
+}
+
+.wedding-datetime-field {
     font-size: 25px;
+    font-weight: normal;
     letter-spacing: 0.05em;
-    line-height: calc(30 / 25);
+    line-height: calc(46 / 25);
+}
+
+.wedding-reception-address-field {
+    padding-bottom: 52px;
 }
 
 .wedding-rsvp-date-field .value::before {
@@ -121,10 +89,19 @@
     content: 'Please RSVP by';
 }
 
+.wedding-rsvp-date-field {
+    padding-bottom: 17px;
+}
+
+.wedding-rsvp-cta-field {
+    z-index: 5;
+}
+
 .wedding-rsvp-cta-field .value {
     width: 302px;
     height: 58px;
-    background: transparent;
+    padding: 0;
+    background-color: transparent;
     background-image: url('/assets/images/cards/wedding-invitation/wedding-rsvp.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -134,7 +111,6 @@
     font-weight: bold;
     line-height: calc(54 / 30);
     letter-spacing: 0.1em;
-    padding: 0;
 }
 
 .wedding-rsvp-cta-field .value:hover {
@@ -146,4 +122,26 @@
     outline: none;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.wedding-website-field {
+    max-width: 100%;
+    width: 100%;
+    height: 100px;
+    order: 10;
+    z-index: 4;
+    white-space: nowrap;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: -30px;
+    padding: 52px 40px 22px;
+    background-color: #221E2B;
+}
+
+.wedding-website-field .value {
+    display: block;
+    color: #FF4A72;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
 }

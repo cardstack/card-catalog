@@ -165,7 +165,7 @@
           "relationships": {
             "csAdoptsFrom": {
               "data": {
-                "id": "https://base.cardstack.com/public/cards/image-reference-field",
+                "id": "https://base.cardstack.com/public/cards/relative-image-reference-field",
                 "type": "cards"
               }
             }
@@ -230,7 +230,7 @@
       "guest-name": "Charlie Peel",
       "highlight-title": "VIP Guest Ticket",
       "number-of-tickets": 4,
-      "qr-code": "https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/core_market_full/generator/dist/generator/assets/images/websiteQRCode_noFrame.png",
+      "qr-code": "/assets/images/cards/event-ticket/ticket-qr-code.png",
       "section": "Main floor",
       "title": "Never Empty Cup Launch Party"
     },

@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Teko:700&display=swap');
 
-.isolated-card {
-    height: 747px;
+.card-boundary {
     background-color: #0069F9;
+}
+
+.isolated-card {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
@@ -13,11 +18,9 @@
 
 .isolated-card--view-fields {
     height: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 80px;
     display: grid;
-    grid-template: 
+    grid-template:
+    "."       80px
     "image"   1fr
     "name"    auto
     "company" auto
@@ -31,12 +34,11 @@
 
 .field {
     display: block;
-    padding-bottom: 10px;
     text-align: center;
 }
 .product-image-field {
     grid-area: image;
-    padding-bottom: 20px;
+    padding-bottom: 38px;
 }
 .product-name-field {
     grid-area: name;
@@ -44,9 +46,10 @@
 }
 .company-name-field {
     grid-area: company;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
+.label,
 .title-field,
 .highlight-title-field,
 .divider-field,
@@ -55,14 +58,11 @@
     display: none;
 }
 
-.label {
-    display: none;
-}
-
 .title-logo-field {
     position: absolute;
     top: 17px;
     left: 19.5px;
+    width: 84px;
 }
 
 .product-ranking-field {
@@ -71,6 +71,7 @@
     top: 10px;
     right: 27px;
     width: auto;
+    height: 138px;
 }
 .product-ranking-value::before {
     content: '#';
@@ -87,14 +88,15 @@
 
 .product-image-value {
     display: inline-block;
-    height: 100%;
+    width: auto;
+    height: 423px;
 }
 
 .product-name-value {
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.03em;
-    line-height: 1.2;
+    line-height: calc(29 / 25);
 }
 
 .company-name-value::before {
@@ -103,9 +105,8 @@
 }
 
 .product-link-field {
-    order: 99;
-    margin-top: 10px;
-    padding: 14px 24px;
+    margin-top: 25px;
+    height: 159px;
     background-color: white;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -116,26 +117,27 @@
     margin-right: 5px;
 }
 .product-link-value {
+    display: inline-block;
+    padding: 24px;
     color: black;
     font-weight: normal;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
 
-.product-cta-field {
-    order: 100;
-    background-color: white;
-}
 .product-cta-value {
-    width: 70%;
-    min-height: 45px;
-    padding: 14px 24px;
+    position: absolute;
+    bottom: 31px;
+    left: 36px;
+    width: 302px;
+    height: 58px;
+    padding: 18px 24px;
     border-radius: 100px;
     background-color: black;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 19px;
+    font-weight: bold;
     letter-spacing: 0.1em;
-    line-height: 1;
+    line-height: calc(23 / 19);
     text-transform: uppercase;
 }
 

@@ -1,16 +1,20 @@
-.isolated-card {
-    height: 747px;
-    padding: 35px 0;
+.card-boundary {
     background-color: #FFEE6E;
-    background-image: url('/assets/images/cards/event-ticket/ticket-confetti.svg');
-    background-size: 100vw;
-    background-position: top center;
+    background-image: url('/assets/images/cards/event-ticket/ticket-bg.png');
+    background-size: 931px 1365px;
+    background-position: top -72px right 47%;
     background-repeat: no-repeat;
+}
+
+.isolated-card {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    padding: 25px 21px 19px 20px;
     font-family: 'DM Sans', sans-serif;
 }
 
 .isolated-card--view-fields {
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -19,9 +23,8 @@
       'qr-code qr-code'
       'guest-name guest-name'
       'date quantity';
-    margin: 0 auto;
     border-radius: 20px;
-    max-width: 354px;
+    max-width: 334px;
     overflow: hidden;
 }
 .isolated-card--view-fields::before,
@@ -40,7 +43,9 @@
     display: block;
     color: #FF0049;
     font-size: 12px;
+    font-weight: bold;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .field {
@@ -63,9 +68,9 @@
     background: none;
 }
 .event-title-value {
-    padding-top: 77px;
+    padding-top: 70px;
     background-image: url('/assets/images/cards/event-ticket/ticket-logo.svg');
-    background-size: 79px 61px;
+    background-size: 79px 62px;
     background-position: top center;
     background-repeat: no-repeat;
     font-size: 35px;
@@ -79,11 +84,10 @@
 .highlight-title-field {
     grid-area: title-2;
     background: #FF0049;
-    padding: 16px 103px 11px;
+    height: 39px;
+    padding: 13px 106px 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-}
-.highlight-title-value {
     color: white;
     font-size: 12px;
     font-weight: bold;
@@ -93,19 +97,24 @@
 
 .qr-code-field {
     grid-area: qr-code;
+    position: relative;
+    padding: 33px 0 21px;
+}
+.qr-code-label {
+    display: block;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background-color: white;
+    color: transparent;
+    margin: 0 auto;
 }
 .qr-code-value {
-    display: block;
-    background: white;
-    width: 135px;
-    min-height: 135px;
-    border-radius: 50%;
-    margin: 33px auto 0;
-    padding: 4px;
-}
-.qr-code-field img {
+    position: absolute;
+    top: 61px;
+    left: 127px;
     width: 79px;
-    min-height: 79px;
+    height: 79px;
 }
 
 .guest-name-field {
@@ -131,8 +140,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 31px;
-    padding-right: 5px;
-    padding-left: 25px;
 }
 
 .number-of-tickets-field {
@@ -152,13 +159,14 @@
 .divider-field {
     border-top: none;
     width: 100%;
-    height: 40px;
     background-image: url('/assets/images/cards/event-ticket/ticket-divider.svg');
     background-repeat: no-repeat;
-    background-size: 105% 14px;
+    background-size: 346px 12px;
     background-position: top center;
+    padding-top: 3px;
+    padding-bottom: 37px;
 }
 
-.wheelchair-access-field {
-    margin-top: -5px;
+.features-field {
+    padding-bottom: 25px;
 }
