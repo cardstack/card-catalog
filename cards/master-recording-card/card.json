@@ -1,0 +1,24 @@
+{
+  "data": {
+    "type": "cards",
+    "attributes": {
+      "csId": "master-recording-card",
+      "csTitle": "Master Recording",
+      "csCreated":"2020-03-18T16:07:34.666Z",
+      "csUpdated":"2020-03-18T18:30:56.689Z",
+      "type": "master"
+    },
+    "relationships": {
+      "csAdoptsFrom": {
+        "data": {
+          "type": "cards", "id": "https://base.cardstack.com/public/cards/catalog-entry"
+        }
+      },
+      "card": {
+        "data": {
+          "type": "cards", "id": "https://cardstack.com/api/realms/card-catalog/cards/master-recording"
+        }
+      }
+    }
+  }
+}
