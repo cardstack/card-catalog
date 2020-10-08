@@ -34,7 +34,7 @@
       ],
       "csFields": {
       },
-      "csId": "a270403f2a98ebb392c4f7ef7002db40b9ec21c4",
+      "csId": "change-is-good",
       "csTitle": "Master Recording",
       "csUpdated": "2020-10-06T22:30:17.867Z",
       "duration": "2:45",
@@ -55,7 +55,7 @@
       "truncated-verifi-id": "0x12ab...45cd",
       "verifi-id": "0x12ab38a6c17e6da2d9cd3303fe7b26079231184ac2f1b6537a11e2301b7445cd"
     },
-    "id": "https://cardstack.com/api/realms/card-catalog/cards/a270403f2a98ebb392c4f7ef7002db40b9ec21c4",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/change-is-good",
     "relationships": {
       "artist": {
         "data": {
@@ -71,7 +71,7 @@
       },
       "musical-work": {
         "data": {
-          "id": "https://cardstack.com/api/realms/card-catalog/cards/8a68f48cfa6c5cd454f22769f8c64483ba5cc262",
+          "id": "https://cardstack.com/api/realms/card-catalog/cards/change-is-good-musical-work",
           "type": "cards"
         }
       },

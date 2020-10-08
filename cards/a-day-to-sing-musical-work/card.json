@@ -2,7 +2,7 @@
   "data": {
     "attributes": {
       "copyright": "© 2019 RealTunes Publishing",
-      "csCreated": "2020-10-06T22:15:45.483Z",
+      "csCreated": "2020-10-06T21:57:53.803Z",
       "csFieldOrder": [
         "header-title",
         "header-description",
@@ -17,20 +17,21 @@
       ],
       "csFields": {
       },
-      "csId": "8a68f48cfa6c5cd454f22769f8c64483ba5cc262",
-      "csTitle": "Change Is Good (Musical Work)",
-      "csUpdated": "2020-10-06T22:18:28.528Z",
+      "csId": "a-day-to-sing-musical-work",
+      "csTitle": "A Day To Sing (Musical Work)",
+      "csUpdated": "2020-10-06T22:06:08.540Z",
       "header-description": "by Pia Midina, Miles Ponia",
       "header-image": "https://cardstack.github.io/boxel/media-registry/musical-work-e4831db3c16769268b07e363b7e82e4d.svg",
-      "header-title": "Change Is Good",
-      "iswc": "T-030245162-3",
+      "header-title": "A Day To Sing",
+      "iswc": "T-030247162-2",
       "publishers": "RealTunes Publishing",
-      "title": "Change Is Good",
-      "truncated-verifi-id": "0x2ef3...45ca",
-      "verifi-id": "0x2ef332b7c27d6ca5d8bd3201fa7c28071221165dc2f1b4528c22e2809d8945ca",
+      "source": "",
+      "title": "A Day To Sing",
+      "truncated-verifi-id": "0x1b89...23ba",
+      "verifi-id": "0x1b8932b7c27d6ca5d8bd3201fa7c28071221165dc2f1b4528c22e2809d8923ba",
       "version-type": "Original work"
     },
-    "id": "https://cardstack.com/api/realms/card-catalog/cards/8a68f48cfa6c5cd454f22769f8c64483ba5cc262",
+    "id": "https://cardstack.com/api/realms/card-catalog/cards/a-day-to-sing-musical-work",
     "relationships": {
       "csAdoptsFrom": {
         "data": {
