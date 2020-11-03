@@ -7,13 +7,14 @@
       "cover-art": "https://cardstack.github.io/boxel/media-registry/covers/medium/Autumn-Leaves-609809715b3077a40277ba64eb37d81a.jpg",
       "csCreated": "2020-08-03T15:38:30.625Z",
       "csFeatures": {
-        "isolated-css": "isolated.css",
-        "embedded-css": "embedded.css"
+        "embedded-css": "embedded.css",
+        "isolated-css": "isolated.css"
       },
       "csFieldOrder": [
         "heading",
         "sub-heading",
         "header-image",
+        "section-heading",
         "title",
         "artist",
         "label",
@@ -24,12 +25,18 @@
         "release-date",
         "parental-advisory",
         "copyright",
-        "verifi-id",
+        "section-heading-2",
         "musical-work",
+        "section-heading-3",
+        "verifi-id",
         "truncated-verifi-id",
+        "section-heading-4",
         "cover-art",
+        "section-heading-5",
         "isrc",
         "catalog-no",
+        "section-heading-6",
+        "artist",
         "producer",
         "mastering-engineer",
         "mixing-engineer",
@@ -46,6 +53,12 @@
           "isrc",
           "genre",
           "label",
+          "section-heading",
+          "section-heading-2",
+          "section-heading-3",
+          "section-heading-4",
+          "section-heading-5",
+          "section-heading-6",
           "title",
           "artist",
           "heading",
@@ -392,6 +405,102 @@
             }
           }
         },
+        "section-heading": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 1"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section-heading-2": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 2"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section-heading-3": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 3"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section-heading-4": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 4"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section-heading-5": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 5"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
+        "section-heading-6": {
+          "attributes": {
+            "csFieldArity": "singular",
+            "csFields": {
+            },
+            "csTitle": "Section 6"
+          },
+          "relationships": {
+            "csAdoptsFrom": {
+              "data": {
+                "id": "https://base.cardstack.com/public/cards/string-field",
+                "type": "cards"
+              }
+            }
+          }
+        },
         "sub-heading": {
           "attributes": {
             "csFieldArity": "singular",
@@ -459,7 +568,7 @@
       },
       "csId": "master-recording",
       "csTitle": "Master Recording",
-      "csUpdated": "2020-10-07T17:06:39.560Z",
+      "csUpdated": "2020-10-30T23:24:49.270Z",
       "duration": "3:23",
       "genre": "Alternative",
       "header-image": "https://cardstack.github.io/boxel/media-registry/covers/medium/Autumn-Leaves-609809715b3077a40277ba64eb37d81a.jpg",
@@ -473,6 +582,12 @@
       "recording-date": "2020-01-16",
       "recording-engineer": "Ian Adams",
       "release-date": "2020-03-02",
+      "section-heading": "Master Details",
+      "section-heading-2": "Musical Work",
+      "section-heading-3": "Registrations",
+      "section-heading-4": "Files",
+      "section-heading-5": "Codes",
+      "section-heading-6": "Credits",
       "sub-heading": "Pia Midina",
       "title": "The Leaves Are Changing Color",
       "truncated-verifi-id": "0x9b21...ca26",
