@@ -158,7 +158,7 @@
           "relationships": {
             "csAdoptsFrom": {
               "data": {
-                "id": "https://base.cardstack.com/public/cards/string-field",
+                "id": "https://base.cardstack.com/public/cards/url-field",
                 "type": "cards"
               }
             }

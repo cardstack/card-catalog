@@ -597,7 +597,7 @@
     "relationships": {
       "artist": {
         "data": {
-          "id": "https://cardstack.com/api/realms/card-catalog/cards/participant",
+          "id": "https://cardstack.com/api/realms/card-catalog/cards/pia-midina",
           "type": "cards"
         }
       },
@@ -615,7 +615,7 @@
       },
       "producer": {
         "data": {
-          "id": "https://cardstack.com/api/realms/card-catalog/cards/participant",
+          "id": "https://cardstack.com/api/realms/card-catalog/cards/francesco-midina",
           "type": "cards"
         }
       }
